@@ -8,3 +8,4 @@ RUN cd /tmp && tar xf trunk-x86_64-unknown-linux-gnu.tar.gz && chmod +x trunk &&
 
 WORKDIR /usr/src/app
 COPY ./crates/akiw-wasm .
+COPY .env .env
